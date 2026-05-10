@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local Python environment
+.venv/
+
+# Browser profiles contain cookies/session/account data. Never commit them.
+.chrome_automation_profile/
+.chatgpt_browser_profile/
+.chatgpt_downloads/
+
+# Runtime state and generated workbooks
+progress.json
+logs/
+chatgpt_outputs/
+canonical_backups/
+previous_gpt_auto_*/
+.ceo_prompt_runner/
+
+# User/private workbook data
+*.xlsx
+*.xlsm
+*.xls
+~$*.xlsx
